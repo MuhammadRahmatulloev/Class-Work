@@ -173,6 +173,24 @@
   margin-top: 10px;
 }
 
+footer {
+  width: 100%;
+  height: 300px;
+  background-image: url("./foot.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer h1 {
+  color: white;
+  position: relative;
+  top: 110px;
+}
+
 @media (max-width: 600px) {
   .navbar div {
     display: none;
@@ -302,5 +320,8 @@
     position: relative;
     right: 30px;
     margin-top: 10px;
+  }
+  footer {
+    margin-top: 700px;
   }
 }/*# sourceMappingURL=style.css.map */
