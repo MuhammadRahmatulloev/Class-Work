@@ -62,6 +62,45 @@
   width: 60%;
 }
 
+.pass {
+  max-width: 1200px;
+  height: 400px;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+}
+.pass h1 {
+  color: #14279B;
+  font-size: 35px;
+  font-weight: 400;
+}
+.pass .pass1 {
+  display: grid;
+  grid-template-columns: 370px 370px 370px;
+  grid-template-rows: 280px;
+  justify-content: space-between;
+}
+.pass .pass-item {
+  border-radius: 15px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.168627451);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.pass .pass-item h1 {
+  color: #000000;
+  font-size: 25px;
+  font-weight: 400;
+}
+
 @media (max-width: 600px) {
   .navbar div {
     display: none;
@@ -89,20 +128,14 @@
     gap: 30px;
   }
   .hero .hero1 h4 {
-    color: #002265;
     font-size: 25px;
-    font-weight: 400;
   }
   .hero .hero1 h1 {
-    color: #002265;
     font-size: 30px;
-    font-weight: 600;
     width: 100%;
   }
   .hero .hero1 p {
-    color: #082032;
     font-size: 20px;
-    font-weight: 400;
     width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

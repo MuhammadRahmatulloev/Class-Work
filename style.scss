@@ -59,6 +59,44 @@
         }
     }
 }
+.pass{
+    max-width: 1200px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    h1{
+        color: #14279B;
+        font-size: 35px;
+        font-weight: 400;
+    }
+    .pass1{
+        display: grid;
+        grid-template-columns: 370px 370px 370px;
+        grid-template-rows: 280px;
+        justify-content: space-between;
+    }
+    .pass-item{
+        border-radius: 15px;
+        box-shadow: 0px 0px 30px #0000002B;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        h1{
+            color: #000000;
+            font-size: 25px;
+            font-weight: 400;
+        }
+    }
+}
 @media (max-width: 600px){
     .navbar{
         div{
@@ -86,20 +124,14 @@
             padding: 30px;
             gap: 30px;
             h4{
-                color: #002265;
                 font-size: 25px;
-                font-weight: 400;
             }
             h1{
-                color: #002265;
                 font-size: 30px;
-                font-weight: 600;
                 width: 100%;
             }
             p{
-                color: #082032;
                 font-size: 20px;
-                font-weight: 400;
                 width: 100%;
             }
         }
