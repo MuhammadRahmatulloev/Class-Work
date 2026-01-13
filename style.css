@@ -83,6 +83,7 @@
   display: grid;
   grid-template-columns: 370px 370px 370px;
   grid-template-rows: 280px;
+  gap: 30px;
   justify-content: space-between;
 }
 .pass .pass-item {
@@ -99,6 +100,77 @@
   color: #000000;
   font-size: 25px;
   font-weight: 400;
+}
+
+.clon {
+  max-width: 1200px;
+  height: 400px;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+}
+.clon h1 {
+  color: #14279B;
+  font-size: 35px;
+  font-weight: 400;
+}
+.clon .clon1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cnt {
+  max-width: 1200px;
+  height: 400px;
+  margin: auto;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0px;
+}
+.cnt h1 {
+  color: #14279B;
+  font-size: 35px;
+  font-weight: 400;
+}
+.cnt .cntx {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.cnt .cnt1 {
+  width: 240px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.cnt .cnt1 .cnt-fon {
+  width: 165px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./foncha.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cnt .cnt1 .cnt-ps h1 {
+  color: #3F3D56;
+  font-size: 35px;
+  font-weight: 500;
+  position: relative;
+  right: 30px;
+  margin-top: 10px;
 }
 
 @media (max-width: 600px) {
@@ -137,5 +209,98 @@
   .hero .hero1 p {
     font-size: 20px;
     width: 100%;
+  }
+  .pass {
+    max-width: 1200px;
+    height: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+  }
+  .pass h1 {
+    color: #14279B;
+    font-size: 35px;
+    font-weight: 400;
+  }
+  .pass .pass1 {
+    display: grid;
+    grid-template-columns: 350px;
+    grid-template-rows: repeat(3, 270px);
+    gap: 30px;
+  }
+  .pass .pass-item {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .pass .pass-item h1 {
+    font-size: 25px;
+  }
+  .clon {
+    margin-top: 350px;
+  }
+  .clon1 {
+    flex-direction: column;
+  }
+  .cnt {
+    max-width: 1200px;
+    height: 600px;
+    margin: auto;
+    margin-top: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0px;
+    position: relative;
+    top: 300px;
+  }
+  .cnt h1 {
+    color: #14279B;
+    font-size: 35px;
+    font-weight: 400;
+  }
+  .cnt .cntx {
+    position: relative;
+    bottom: 400px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .cnt .cnt1 {
+    width: 240px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .cnt .cnt1 .cnt-fon {
+    width: 165px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./foncha.png");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .cnt .cnt1 .cnt-ps h1 {
+    color: #3F3D56;
+    font-size: 35px;
+    font-weight: 500;
+    position: relative;
+    right: 30px;
+    margin-top: 10px;
   }
 }/*# sourceMappingURL=style.css.map */
